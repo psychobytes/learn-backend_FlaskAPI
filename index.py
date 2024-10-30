@@ -13,6 +13,7 @@ app.register_blueprint(level_bp)
 def home():
     return "API"
 
+# uncomment if want deploy locally
 # if __name__ == '__main__':
 #     db.create_all()
 #     app.run(debug=True)
